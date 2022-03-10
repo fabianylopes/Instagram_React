@@ -1,13 +1,13 @@
-import Corpo from "./components/Corpo";
-import FundoMobile from "./components/FundoMobile";
+import Body from "./components/Body";
+import MobileVersion from "./components/MobileVersion";
 import Navbar from "./components/Navbar";
 
 export default function App(){
     return (
         <>
             <Navbar/>
-            <Corpo/>
-            <FundoMobile/>
+            <Body/>
+            <MobileVersion/>
         </>
     )
 }

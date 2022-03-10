@@ -1,7 +1,7 @@
-import Sugestao from "./Sugestao"
-import { sugestao } from "./Data"
+import Suggestion from "./Suggestion"
+import { suggestion } from "./Data"
 
-export default function Sugestoes(){
+export default function Suggestions(){
     return (
         <>
             <div class="sugestoes">
@@ -10,7 +10,7 @@ export default function Sugestoes(){
                     <div>Ver tudo</div>
                 </div>
 
-                {sugestao.map((s) => (<Sugestao imagem={s.imagem} usuario={s.usuario} motivo={s.motivo}/>))}
+                {suggestion.map((s) => (<Suggestion imagem={s.imagem} usuario={s.usuario} motivo={s.motivo}/>))}
                 
             </div>
         </>

@@ -16,16 +16,16 @@ const story = [
         usuario: "nathanwpylestrangeplanet",
     },
     {
-        imagem: "assets/img/wawawicomics.svg",
-        usuario: "wawawicomics",
+        imagem: "assets/img/starwars.png",
+        usuario: "starwars",
     },
     {
         imagem: "assets/img/respondeai.svg",
         usuario: "respondeai",
     },
     {
-        imagem: "assets/img/filomoderna.svg",
-        usuario: "filomoderna",
+        imagem: "assets/img/marvel.png",
+        usuario: "marvel",
     },
     {
         imagem: "assets/img/memeriagourmet.svg",
@@ -35,22 +35,34 @@ const story = [
 
 const post = [
     {
-        imagemTopo: "assets/img/meowed.svg",
-        usuario: "meowed",
-        imagemConteudo: "assets/img/gato-telefone.svg",
-        imagemCurtidas: "assets/img/respondeai.svg",
-        curtido: "respondeai"
+        imagemTopo: "assets/img/starwars.png",
+        usuario: "starwars",
+        imagemConteudo: "assets/img/obiwan.png",
+        imagemCurtidas: "assets/img/marvel.png",
+        curtido: "marvel",
+        numeroCurtidas: "101.523",
+        legenda: "Obi-Wan Kenobi, a limited Original series, starts streaming May 25 on @DisneyPlus.",
+        contaComentario1: "sideshow",
+        comentario1: "Hello There!",
+        contaComentario2: "parkerjamescannon",
+        comentario2: "Another happy landing" 
     },
     {
-        imagemTopo: "assets/img/barked.svg",
-        usuario: "barked",
-        imagemConteudo: "assets/img/dog.svg",
-        imagemCurtidas: "assets/img/adorable_animals.svg",
-        curtido: "adorable_animals"
+        imagemTopo: "assets/img/marvel.png",
+        usuario: "marvel",
+        imagemConteudo: "assets/img/xmen.png",
+        imagemCurtidas: "assets/img/starwars.png",
+        curtido: "starwars",
+        numeroCurtidas: "99.159",
+        legenda: "We've missed you, too. See you in 2023 with all-new episodes. #XMen97 #DisneyPlusDay",
+        contaComentario1: "eddiehizpanik_ghost_knowledge",
+        comentario1: "👏🙌🔥 Now we talking Marvel.",
+        contaComentario2: "jacobgrammer20",
+        comentario2: "I love the marvel X-men franchise" 
     }
 ];
 
-const sugestao = [
+const suggestion = [
     {
         imagem: "assets/img/bad.vibes.memes.svg",
         usuario: "bad.vibes.memes",
@@ -78,4 +90,4 @@ const sugestao = [
     },
 ];
 
-export { story, post, sugestao };
+export { story, post, suggestion };

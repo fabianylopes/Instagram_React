@@ -64,6 +64,7 @@ body {
   border: 1px solid #DBDBDB;
   color: #979797;
   text-align: center;
+  outline: none;
 }
 
 .navbar .icones ion-icon {
@@ -121,7 +122,7 @@ body {
   height: 66px;
   width: 66px;
   background-image: url('../assets/img/story-circle.svg');
-  
+  cursor: pointer;
 }
 
 .story .imagem img {
@@ -212,6 +213,60 @@ body {
   margin-bottom: 18px;
 }
 
+.legenda {
+  padding: 0 16px 6px;
+  margin-bottom: 3px;
+  font-weight: 300;
+  color: #262626;
+}
+
+.comentario {
+  padding: 0 16px 6px;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comentario .texto {
+  font-weight: 300;
+  color: #262626;
+}
+
+.input {
+  width: 100%;
+  padding: 16px 13px;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input input {
+  width: 480px;
+  border: none;
+  outline: 0;
+  background-color: #FAFAFA;
+}
+
+::placeholder {
+  color: #8E8E8E;
+}
+
+.emoji {
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  color: #B2DFFC;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0095F6;
+}
+
 .sidebar {
   padding-top: 24px;
   position: sticky;
@@ -227,6 +282,7 @@ body {
   width: 56px;
   height: 56px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .sidebar > .usuario .texto {

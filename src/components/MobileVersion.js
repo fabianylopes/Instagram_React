@@ -1,4 +1,4 @@
-export default function FundoMobile(){
+export default function MobileVersion(){
     return (
         <>
             <div class="fundo-mobile">

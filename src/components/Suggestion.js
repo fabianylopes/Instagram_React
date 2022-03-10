@@ -1,4 +1,4 @@
-export default function Sugestao(props){
+export default function Suggestion(props){
     return (
         <>
             <div class="sugestao">

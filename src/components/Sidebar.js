@@ -1,14 +1,16 @@
 import FooterSidebar from "./FooterSidebar";
-import Sugestoes from "./Sugestoes";
-import Usuario from "./Usuario";
+import Suggestions from "./Suggestions";
+import User from "./User";
 
 export default function Sidebar(){
     return (
         <>
-            <div class="sidebar">
-                <Usuario/>
-                <Sugestoes/>
-                <FooterSidebar/>
+            <div>
+                <div class="sidebar">
+                    <User imagem="assets/img/fabylopes.png" conta="fabylopes" nome="Faby"/>
+                    <Suggestions/>
+                    <FooterSidebar/>
+                </div>
             </div>
         </>
     )

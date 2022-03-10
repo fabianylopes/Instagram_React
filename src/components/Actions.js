@@ -1,4 +1,4 @@
-export default function Acoes(){
+export default function Actions(){
     return (
         <>
             <div class="acoes">
