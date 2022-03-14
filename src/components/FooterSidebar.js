@@ -9,5 +9,5 @@ export default function FooterSidebar(){
                 © 2021 INSTAGRAM DO FACEBOOK
             </div>
         </>
-    )
+    );
 }

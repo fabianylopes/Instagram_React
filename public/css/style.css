@@ -258,8 +258,9 @@ body {
 }
 
 button {
-  border: none;
+  background-color: #FAFAFA;
   color: #B2DFFC;
+  border: none;
   cursor: pointer;
 }
 

@@ -3,11 +3,9 @@ import Posts from "./Posts"
 
 export default function Left(){
     return (
-        <>
-            <div class="esquerda">
-                <Stories/>
-                <Posts/>
-            </div>
-        </>
-    )
+        <div class="esquerda">
+            <Stories/>
+            <Posts/>
+        </div>
+    );
 }

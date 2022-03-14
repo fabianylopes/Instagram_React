@@ -1,35 +1,35 @@
 const story = [
     {
-        imagem: "assets/img/9gag.svg",
-        usuario: "9gag",
+        imagem: "assets/img/netflix.png",
+        usuario: "netflix",
     },
     {
-        imagem: "assets/img/meowed.svg",
-        usuario: "meowed",
+        imagem: "assets/img/pixar.png",
+        usuario: "pixar",
     },
     {
-        imagem: "assets/img/barked.svg",
-        usuario: "barked",
+        imagem: "assets/img/nasa.png",
+        usuario: "nasa",
     },
     {
-        imagem: "assets/img/nathanwpylestrangeplanet.svg",
-        usuario: "nathanwpylestrangeplanet",
+        imagem: "assets/img/disney.png",
+        usuario: "disneyplus",
     },
     {
         imagem: "assets/img/starwars.png",
         usuario: "starwars",
     },
     {
-        imagem: "assets/img/respondeai.svg",
-        usuario: "respondeai",
+        imagem: "assets/img/365filmes.png",
+        usuario: "365filmes",
     },
     {
         imagem: "assets/img/marvel.png",
         usuario: "marvel",
     },
     {
-        imagem: "assets/img/memeriagourmet.svg",
-        usuario: "memeriagourmet",
+        imagem: "assets/img/universoxmen.png",
+        usuario: "universoxmen",
     }
 ];
 
@@ -64,8 +64,8 @@ const post = [
 
 const suggestion = [
     {
-        imagem: "assets/img/bad.vibes.memes.svg",
-        usuario: "bad.vibes.memes",
+        imagem: "assets/img/chris.png",
+        usuario: "chrisevans",
         motivo: "Segue você",
     },
     {
@@ -74,8 +74,8 @@ const suggestion = [
         motivo: "Segue você",
     },
     {
-        imagem: "assets/img/razoesparaacreditar.svg",
-        usuario: "razoesparaacreditar",
+        imagem: "assets/img/markhamill.png",
+        usuario: "hamillhimself",
         motivo: "Novo no Instagram",
     },
     {
